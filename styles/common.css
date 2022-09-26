@@ -1,0 +1,8 @@
+.hero-header {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: azure;
+  height: 60px;
+  padding-left: 10px;
+}
