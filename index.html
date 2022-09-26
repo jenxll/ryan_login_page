@@ -27,22 +27,31 @@
     <link rel="stylesheet" href="./styles/common.css" />
   </head>
   <body>
-    <div class="hero-container">
-      <div class="hero-header">
+    <div class="navbar">
+      <div class="navbar-header">
         <h3>Hello</h3>
       </div>
     </div>
 
     <div class="login-container">
-    <div class="left">
-      <img src="https://source.unsplash.com/random/?computer" alt />
+      <div class="left">
+        <img src="https://source.unsplash.com/random/?computer" alt />
+        </div>
 
       <div class="right">
+        <div class="login_form">
         <h5>Login</h5>
         <form action="http://www.example.com" target="_blank">
-          <div><input type="email" id="email" /></div>
-          <input type="password" name="password" required="required" />
-          <input type="submit" value="Submit" />
+          <label>
+            Email:
+            <input type="email" id="email" />
+          </label>
+
+          <label>
+            Password:
+            <input type="password" name="password" required="required" />
+          </label>
+            <input type="submit" value="Submit" />
         </form>
       </div>
     </div>

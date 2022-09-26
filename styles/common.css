@@ -1,4 +1,10 @@
-.hero-header {
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-header {
   display: flex;
   align-items: center;
   background-color: black;
